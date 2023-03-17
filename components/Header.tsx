@@ -16,7 +16,15 @@ const Header = () => {
           />
         </Link>
       </div>
-      <div></div>
+      <div className="flex items-center space-x-2">
+        <Link
+          href="www.google.co.uk"
+          target="_blank"
+          className="px-5 py-3 text-sm md:text-base bg-gray-300 text-[#000] flex items-center rounded-full text-center hover:bg-gray-500 hover:text-[#F7AB0A]"
+        >
+          Sign Up
+        </Link>
+      </div>
     </header>
   )
 }
